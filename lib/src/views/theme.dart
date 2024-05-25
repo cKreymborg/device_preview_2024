@@ -1,4 +1,4 @@
-import 'package:device_preview/src/state/state.dart';
+import 'package:device_preview_2024/src/state/state.dart';
 import 'package:flutter/material.dart';
 
 extension ThemeBackgroundExtension on DevicePreviewBackgroundThemeData {

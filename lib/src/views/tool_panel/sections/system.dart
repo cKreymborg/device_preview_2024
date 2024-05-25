@@ -1,5 +1,5 @@
-import 'package:device_preview/src/state/store.dart';
-import 'package:device_preview/src/views/tool_panel/sections/subsections/locale.dart';
+import 'package:device_preview_2024/src/state/store.dart';
+import 'package:device_preview_2024/src/views/tool_panel/sections/subsections/locale.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

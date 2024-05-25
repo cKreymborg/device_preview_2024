@@ -1,6 +1,6 @@
-import 'package:device_preview/src/state/store.dart';
-import 'package:device_preview/src/views/theme.dart';
-import 'package:device_preview/src/views/tool_panel/tool_panel.dart';
+import 'package:device_preview_2024/src/state/store.dart';
+import 'package:device_preview_2024/src/views/theme.dart';
+import 'package:device_preview_2024/src/views/tool_panel/tool_panel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
