@@ -1,194 +1,198 @@
 ## 1.1.0
 
-* Updated dependencies and adding support for Flutter 3.0.
+- Updated dependencies, fixed linter issues and add support for Flutter >=3.22
+
+## 1.1.0
+
+- Updated dependencies and adding support for Flutter 3.0.
 
 ## 1.0.0-alpha.15
 
-* Updated device_frame which added new android devices and fixed padding.
+- Updated device_frame which added new android devices and fixed padding.
 
 ## 1.0.0-alpha.14
 
-* Missing export of `DeviceScreenshot`.
+- Missing export of `DeviceScreenshot`.
 
 ## 1.0.0-alpha.13
 
-* Added device type section headers
-* Improved disabled item icon visibility changes.
-* Fixed accesible navigation, invert colors and bold text not available.
-* Removed path_drawing dependency.
+- Added device type section headers
+- Improved disabled item icon visibility changes.
+- Fixed accesible navigation, invert colors and bold text not available.
+- Removed path_drawing dependency.
 
 ## 1.0.0-alpha.12
 
-* Updated device_frame which added a new list of devices.
+- Updated device_frame which added a new list of devices.
 
 ## 1.0.0-alpha.11
 
-* Added section visibility parameters to hide items.
+- Added section visibility parameters to hide items.
 
 ## 1.0.0-alpha.10
 
-* Added conditional import for web, to improve the pub.dev score.
+- Added conditional import for web, to improve the pub.dev score.
 
 ## 1.0.0-alpha.8
 
-* Removed generated files from example.
+- Removed generated files from example.
 
 ## 1.0.0-alpha.7
 
-* Fixed `enabled` issue.
-* Fixed SVG issue with custom device.
+- Fixed `enabled` issue.
+- Fixed SVG issue with custom device.
 
 ## 1.0.0-alpha.6
 
-* Upgraded `device_frame` dependency.
-* Fixed theming issues in small layout.
+- Upgraded `device_frame` dependency.
+- Fixed theming issues in small layout.
 
 ## 1.0.0-alpha.5
 
-* Added `DevicePreview.selectedDevice` method. 
+- Added `DevicePreview.selectedDevice` method.
 
 ## 1.0.0-alpha.4
 
-* Added `DevicePreview.availableDeviceIdentifiers` method. 
+- Added `DevicePreview.availableDeviceIdentifiers` method.
 
 ## 1.0.0-alpha.3
 
-* Upgraded device_frame dependency.
+- Upgraded device_frame dependency.
 
 ## 1.0.0-alpha.2
 
-* Upgraded provider dependency.
+- Upgraded provider dependency.
 
 ## 1.0.0-alpha.1
 
-* Adaptative layout to make the tool easier to use on mobile.
-* Big refactor to make the package more maintainable :
-    * Switched all UI components to Material design
-    * Removed all include plugins *(available soon as separated packages)*
+- Adaptative layout to make the tool easier to use on mobile.
+- Big refactor to make the package more maintainable :
+  - Switched all UI components to Material design
+  - Removed all include plugins _(available soon as separated packages)_
 
 ## 0.8.0
 
-* Removed `DevicePreview.appBuilder` to switch to newer `useInheritedMediaQuery` property instead.
+- Removed `DevicePreview.appBuilder` to switch to newer `useInheritedMediaQuery` property instead.
 
 ## 0.7.5
 
-* Upgraded dependencies
-* Migrated to flutter_lints
-* Removed dependency to awesome_fonts
+- Upgraded dependencies
+- Migrated to flutter_lints
+- Removed dependency to awesome_fonts
 
 ## 0.7.4
 
-* Fixing `basicLocaleListResolution` throwing `imported from multiple packages` conflict error.
+- Fixing `basicLocaleListResolution` throwing `imported from multiple packages` conflict error.
 
 ## 0.7.3
 
-* Fixing missing part file.
+- Fixing missing part file.
 
 ## 0.7.2
 
-* Upgraded dependencies.
-* Fixed issue on web with null empty locale list.
+- Upgraded dependencies.
+- Fixed issue on web with null empty locale list.
 
 ## 0.7.1
 
-* Fixed screenshot error.
-* Fixed initialization null check.
+- Fixed screenshot error.
+- Fixed initialization null check.
 
 ## 0.7.0
 
-* Null-safety compatibility.
-* Upgraded dependencies for Flutter 2.0.
+- Null-safety compatibility.
+- Upgraded dependencies for Flutter 2.0.
 
 ## 0.6.2-beta
 
-* Added Directionality to overlay.
+- Added Directionality to overlay.
 
 ## 0.6.1-beta
 
-* Added styling options to hide toolbar buttons.
-* Added a `defaultDevice`.
+- Added styling options to hide toolbar buttons.
+- Added a `defaultDevice`.
 
 ## 0.6.0-beta
 
-* Support for `MediaQuery.maybeOf` Flutter API breaking change.
+- Support for `MediaQuery.maybeOf` Flutter API breaking change.
 
 ## 0.5.5
 
-* Fixed an issue with language picker.
+- Fixed an issue with language picker.
 
 ## 0.5.4
 
-* Fixed issue with [DevicePreview.selectDevice] method.
+- Fixed issue with [DevicePreview.selectDevice] method.
 
 ## 0.5.3
 
-* Added the [DevicePreview.selectDevice] method.
+- Added the [DevicePreview.selectDevice] method.
 
 ## 0.5.2
 
-* Removed Flutter plugin directories.
+- Removed Flutter plugin directories.
 
 ## 0.5.1
 
-* Fixed linting issues.
+- Fixed linting issues.
 
 ## 0.5.0
 
-* Updated documentation
+- Updated documentation
 
 ## 0.5.0-prerelease.16
 
-* Fix shared preferences plugin navigation restoration issues.
+- Fix shared preferences plugin navigation restoration issues.
 
 ## 0.5.0-prerelease.15
 
-* Fix styling issues.
+- Fix styling issues.
 
 ## 0.5.0-prerelease.14
 
-* Fix issue when not enabled.
+- Fix issue when not enabled.
 
 ## 0.5.0-prerelease.13
 
-* Fixed several styling issues.
-* Fix issue when not enabled.
+- Fixed several styling issues.
+- Fix issue when not enabled.
 
 ## 0.5.0-prerelease.12
 
-* Added the plugin system.
+- Added the plugin system.
 
 ## 0.5.0-prerelease.11
 
-* Fixed device screen clip.
+- Fixed device screen clip.
 
 ## 0.5.0-prerelease.6
 
-* Fixed hidden popovers when not fullscreen.
-* Fixed overflow errors.
+- Fixed hidden popovers when not fullscreen.
+- Fixed overflow errors.
 
 ## 0.5.0-prerelease.5
 
-* Improved loading time.
+- Improved loading time.
 
 ## 0.5.0-prerelease.4
 
-* Keeping state of application when enabling/disabling preview.
+- Keeping state of application when enabling/disabling preview.
 
 ## 0.5.0-prerelease.3
 
-* Custom device selector.
+- Custom device selector.
 
 ## 0.5.0-prerelease.2
 
-* Added linux devices.
+- Added linux devices.
 
 ## 0.5.0-prerelease
 
-* New redesigned frames.
-* Added enabled switch.
-* Removed restart button
-* Fixed issues with conflicting global key.
-* Minor UI tweaks.
+- New redesigned frames.
+- Added enabled switch.
+- Removed restart button
+- Fixed issues with conflicting global key.
+- Minor UI tweaks.
 
 ## 0.4.8
 
